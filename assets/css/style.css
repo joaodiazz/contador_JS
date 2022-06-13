@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #a88754bd;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4.5em;
+  margin-bottom: 0.3em;
+}
+
+button {
+  outline: none;
+  padding: 12px 12px;
+  margin: 0 4px;
+  color: #dbdbdb;
+  border-radius: 7px;
+  cursor: pointer;
+
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.menos {
+  background-color: #c04f4f;
+  border: 2px solid #8b2424;
+  transition: 0.3s ease-in-out;
+}
+
+.menos:hover {
+  background-color: #df3838;
+  border: 2px solid #9c2323;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.mais {
+  background-color: #4c9445;
+  border: 2px solid #2d6e27;
+  transition: 0.3s ease-in-out;
+}
+
+.mais:hover {
+  background-color: #3aad30;
+  border: 2px solid #1f8615;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.zerado {
+  background-color: #3b4f69;
+  border: 2px solid #283444;
+  transition: 0.3s ease-in-out;
+}
+
+.zerado:hover {
+  background-color: #315e99;
+  border: 2px solid #1a3a63;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 430px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+  }
+
+  button {
+    padding: 10px 10px;
+    font-size: 10px;
+    margin: 3px 0;
+  }
+}
